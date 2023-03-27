@@ -1,3 +1,7 @@
+toystore
+2.18
+file:///C:/Users/Admin/HPVB/pvb_toy_store/toystore/
+file:///C:/Users/Admin/HPVB/pvb_toy_store/toystore/lib/
 async
 2.14
 file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/async-2.9.0/
@@ -90,8 +94,4 @@ flutter_test
 2.17
 file:///C:/src/flutter/packages/flutter_test/
 file:///C:/src/flutter/packages/flutter_test/lib/
-toystore
-2.18
-file:///D:/Documents/flutter/ToyStorePVB/pvb_toy_store/toystore/
-file:///D:/Documents/flutter/ToyStorePVB/pvb_toy_store/toystore/lib/
 2
