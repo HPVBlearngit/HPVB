@@ -46,8 +46,9 @@ Future<http.Response> updateCart(
   return response;
 }
 
-Future<http.Response> updateInvoiceState(id, isDelivery) async {
-  Map data = {'isDelivery': isDelivery};
+Future<http.Response> updateInvoiceState(
+     id,  isDelivery) async {
+  Map data = { 'isDelivery': isDelivery};
   var body = json.encode(data);
   final http.Response response =
       await http.put(Uri.parse('$mainUrl$invoiceUrl/$id'),
