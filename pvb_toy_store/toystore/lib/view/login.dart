@@ -4,15 +4,15 @@ import 'package:flutter/material.dart';
 // import 'package:flutterdemo/viewuser.dart';
 import 'package:http/http.dart' as http;
 import 'package:page_transition/page_transition.dart';
-import 'package:pvb_toy_app/view/admin.dart';
-import 'package:pvb_toy_app/view/cart_detail.dart';
-import 'package:pvb_toy_app/view/order_history.dart';
-import 'package:pvb_toy_app/view/product_brand_view.dart';
-import 'package:pvb_toy_app/view/product_detail_view.dart';
-import 'package:pvb_toy_app/view/product_discount_view.dart';
-import 'package:pvb_toy_app/view/product_list_view.dart';
-import 'package:pvb_toy_app/view/sign_up_screen.dart';
-import 'package:pvb_toy_app/view/user_profile.dart';
+import 'package:toystore/view/admin.dart';
+import 'package:toystore/view/cart_detail.dart';
+import 'package:toystore/view/order_history.dart';
+import 'package:toystore/view/product_brand_view.dart';
+import 'package:toystore/view/product_detail_view.dart';
+import 'package:toystore/view/product_discount_view.dart';
+import 'package:toystore/view/product_list_view.dart';
+import 'package:toystore/view/sign_up_screen.dart';
+import 'package:toystore/view/user_profile.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'dart:convert';
 // ignore: import_of_legacy_library_into_null_safe
@@ -42,7 +42,9 @@ class Login extends StatelessWidget {
           case '/home':
             return PageTransition(
                 type: PageTransitionType.fade,
-                child: MyHomePage(),
+                child: MyHomePage(
+                  title: '',
+                ),
                 settings: settings);
           case '/productDetail':
             return PageTransition(

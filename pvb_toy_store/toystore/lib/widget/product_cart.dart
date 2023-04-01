@@ -2,9 +2,9 @@
 
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
-import 'package:pvb_toy_app/model/product.dart';
+import 'package:toystore/model/product.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:pvb_toy_app/state/state_management.dart';
+import 'package:toystore/state/state_management.dart';
 // ignore: duplicate_import
 import '../model/product.dart';
 

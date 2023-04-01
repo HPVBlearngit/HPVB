@@ -1,10 +1,10 @@
 import 'dart:convert';
 import 'package:flutter/foundation.dart';
-import 'package:pvb_toy_app/const/api_const.dart';
+import 'package:toystore/const/api_const.dart';
 import 'package:http/http.dart' as http;
-import 'package:pvb_toy_app/model/brand.dart';
-import 'package:pvb_toy_app/model/discount.dart';
-import 'package:pvb_toy_app/model/product.dart';
+import 'package:toystore/model/brand.dart';
+import 'package:toystore/model/discount.dart';
+import 'package:toystore/model/product.dart';
 
 import '../model/category.dart';
 

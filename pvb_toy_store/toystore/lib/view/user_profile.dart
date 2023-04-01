@@ -5,8 +5,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:kenburns/kenburns.dart';
-import 'package:pvb_toy_app/model/user.dart';
-import 'package:pvb_toy_app/network/user.dart';
+import 'package:toystore/model/user.dart';
+import 'package:toystore/network/user.dart';
 import 'package:shape_of_view/shape_of_view.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 

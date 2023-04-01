@@ -5,8 +5,8 @@ import 'dart:convert';
 // ignore: unused_import
 import 'package:flutter/foundation.dart';
 import 'package:http/http.dart' as http;
-import 'package:pvb_toy_app/const/api_const.dart';
-import 'package:pvb_toy_app/model/cart.dart';
+import 'package:toystore/const/api_const.dart';
+import 'package:toystore/model/cart.dart';
 
 import '../model/invoice.dart';
 // ignore: unused_import

@@ -5,9 +5,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:intl/intl.dart';
-import 'package:pvb_toy_app/const/Screen_Const.dart';
-import 'package:pvb_toy_app/network/api_cart_request.dart';
-import 'package:pvb_toy_app/state/state_management.dart';
+import 'package:toystore/const/Screen_Const.dart';
+import 'package:toystore/network/api_cart_request.dart';
+import 'package:toystore/state/state_management.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../model/invoice.dart';

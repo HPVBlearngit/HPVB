@@ -1,8 +1,7 @@
-
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 
-import 'package:pvb_toy_app/model/user.dart';
+import 'package:toystore/model/user.dart';
 
 import '../const/api_const.dart';
 

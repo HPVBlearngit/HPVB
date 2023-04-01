@@ -5,10 +5,10 @@ import 'package:flutter_slidable/flutter_slidable.dart';
 // ignore: import_of_legacy_library_into_null_safe
 import 'package:progress_dialog/progress_dialog.dart';
 // ignore: unused_import
-import 'package:pvb_toy_app/model/cart.dart';
-import 'package:pvb_toy_app/model/payment.dart';
-import 'package:pvb_toy_app/network/api_cart_request.dart';
-import 'package:pvb_toy_app/network/user.dart';
+import 'package:toystore/model/cart.dart';
+import 'package:toystore/model/payment.dart';
+import 'package:toystore/network/api_cart_request.dart';
+import 'package:toystore/network/user.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 // ignore: use_key_in_widget_constructors

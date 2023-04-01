@@ -1,10 +1,10 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:pvb_toy_app/model/brand.dart';
-import 'package:pvb_toy_app/model/category.dart';
-import 'package:pvb_toy_app/model/discount.dart';
-import 'package:pvb_toy_app/model/invoice.dart';
-import 'package:pvb_toy_app/model/product.dart';
-import 'package:pvb_toy_app/model/user.dart';
+import 'package:toystore/model/brand.dart';
+import 'package:toystore/model/category.dart';
+import 'package:toystore/model/discount.dart';
+import 'package:toystore/model/invoice.dart';
+import 'package:toystore/model/product.dart';
+import 'package:toystore/model/user.dart';
 
 final categorySelected = StateProvider((ref) => myCategory());
 final productSelected = StateProvider(((ref) => myToy()));

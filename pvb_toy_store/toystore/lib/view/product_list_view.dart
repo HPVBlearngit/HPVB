@@ -2,10 +2,10 @@
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter/material.dart';
-import 'package:pvb_toy_app/state/state_management.dart';
+import 'package:toystore/state/state_management.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../network/api_request.dart';
-import 'package:pvb_toy_app/model/product.dart';
+import 'package:toystore/model/product.dart';
 
 import '../widget/product_cart.dart';
 

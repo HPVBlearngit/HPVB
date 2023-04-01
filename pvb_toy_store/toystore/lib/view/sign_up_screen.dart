@@ -3,8 +3,8 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
-import 'package:pvb_toy_app/network/user.dart';
-import 'package:pvb_toy_app/view/login.dart';
+import 'package:toystore/network/user.dart';
+import 'package:toystore/view/login.dart';
 
 class SignUpScreen extends StatefulWidget {
   @override

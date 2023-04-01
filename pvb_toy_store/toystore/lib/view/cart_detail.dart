@@ -5,8 +5,8 @@ import 'package:flutter_elegant_number_button/flutter_elegant_number_button.dart
 import 'package:flutter_slidable/flutter_slidable.dart';
 // ignore: import_of_legacy_library_into_null_safe
 // ignore: unused_import
-import 'package:pvb_toy_app/model/cart.dart';
-import 'package:pvb_toy_app/network/api_cart_request.dart';
+import 'package:toystore/model/cart.dart';
+import 'package:toystore/network/api_cart_request.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 // ignore: use_key_in_widget_constructors
