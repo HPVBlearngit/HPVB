@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-WebsiteTinTucTheThaoApplication<WebsiteTinTucTheThao>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.WebsiteTinTucTheThao.WebsiteTinTucTheThaoApplication",
+            "projectName": "WebsiteTinTucTheThao",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

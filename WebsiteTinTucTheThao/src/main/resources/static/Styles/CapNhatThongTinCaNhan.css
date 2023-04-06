@@ -1,0 +1,90 @@
+.noiDung{
+    height: auto;
+}
+.noiDung .trai{
+    width: 20%;
+    border-right: 0.5px solid rgba(0,0,0,0.5);
+    float: left;
+    /* background-color: rgba(255, 200, 36,0.3); */
+    height: 100%;
+}
+
+.noiDung .trai ul{
+    list-style: none;
+    width: 100%;
+}
+
+.noiDung .trai li{
+    margin: 0px;
+    padding: 10px;
+    width: 100%;
+}
+
+.noiDung .trai li a{
+    font-size: 18px;
+    padding: 4px;
+}
+
+.noiDung .trai li a:hover{
+    font-weight: bold;
+}
+
+.noiDung .trai .ttcn{
+    background-color: rgba(0,0,0,0.5);
+    width: 80%;
+}
+
+.noiDung .phai{
+    width: 78%;
+    float: left;
+    border-left: 0.5px solid rgba(0,0,0,0.5);
+}
+
+.noiDung .phai .bao{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.noiDung .phai .bao .tieuDe{
+    font-size: 16px;
+    font-weight: bold;
+    background-color: rgba(255, 200, 36,0.9);
+    padding: 4px;
+    text-align: left;
+    margin-top: 10px;
+    border-bottom: 0.5px solid rgba(0,0,0,0.3);
+}
+
+.noiDung .phai .bao p{
+    margin: 20px 10px 5px 10px;
+    text-align: left;
+}
+.noiDung .phai .bao input{
+    width: 92%;
+    font-size: 16px;
+    height: 24px;
+}
+
+.noiDung .phai button{
+    margin: 20px;
+    width: 30%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid rgba(255, 200, 36,0.9);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: rgba(255, 200, 36,0.9);
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.noiDung .phai .bao #gioiTinh{
+    width: 16px;
+    height: 16px;
+}
+
+.noiDung .phai button:hover{
+    background-color: rgba(255, 200, 36,0.9);
+    color: rgba(0, 0, 0, 0.7);
+}

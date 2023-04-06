@@ -1,0 +1,65 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : May 13, 2022, 8:50:12 PM
+    Author     : dovan
+*/
+
+.noiDung{
+    width: 100%;
+}
+.noiDung .thongTin{
+    width: 60%;
+    margin: 20px auto;
+}
+
+.lopBao .noiDung{
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.noiDung .trai{
+    margin: auto;
+    width: 60%;
+    float: left;
+    padding: 20px 0;
+    border-right: 2px solid rgba(0,0,0,0.3);
+}
+
+.noiDung .bao{
+    width: 100%;
+    clear: both;
+    padding-bottom: 20px;
+    display: inline-block;
+}
+
+.noiDung .bao img{
+    width: 25%;
+    float: left;
+}
+
+.noiDung .bao .chiTiet{
+    width: 66%;
+    float: left;
+    padding-left: 4%;
+}
+
+.noiDung .bao .chiTiet .tieuDe{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.noiDung .bao .chiTiet .thoiGian{
+    padding-top: 4px;
+    font-size: 12px;
+    font-style: italic;
+}
+.noiDung .bao .chiTiet .moTaNgan{
+    font-size: 14px;
+    padding-top: 10px;
+}
+

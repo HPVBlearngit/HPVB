@@ -1,0 +1,57 @@
+.noiDung{
+    height: auto;
+}
+.noiDung .trai{
+    width: 20%;
+    border-right: 0.5px solid rgba(0,0,0,0.5);
+    float: left;
+    /* background-color: rgba(255, 200, 36,0.3); */
+    height: 100%;
+}
+
+.noiDung .trai ul{
+    list-style: none;
+    width: 100%;
+}
+
+.noiDung .trai li{
+    margin: 0px;
+    padding: 10px;
+    width: 100%;
+}
+
+.noiDung .trai li a{
+    font-size: 18px;
+    padding: 4px;
+}
+
+.noiDung .trai li a:hover{
+    font-weight: bold;
+}
+
+.noiDung .phai{
+    border-left: 0.5px solid rgba(0,0,0,0.5);
+    width: 78%;
+    float: left;
+    height: 100%;
+    padding-left: 20px;
+}
+
+.noiDung .phai .tieuDe{
+    font-size: 18px;
+    font-weight: bold;
+    width: 98%;
+    padding: 10px 10px 0px 10px;
+    border-bottom: 0.5px solid rgba(0,0,0,0.5);
+}
+
+.noiDung .phai p a{
+    padding-left: 40px;
+    font-size: 14px;
+    color: blue;
+}
+
+.noiDung .trai .ttcn{
+    background-color: rgba(0,0,0,0.5);
+    width: 80%;
+}

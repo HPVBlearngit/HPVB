@@ -1,0 +1,246 @@
+html {
+    font-family: Oswald, 'Work Sans', sans-serif;
+}
+
+a {
+    text-decoration-line: none;
+    color: black;
+}
+
+.lopBao {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+}
+
+.lopBao .dauTrang {
+    width: 100%;
+    height: 110px;
+}
+
+.lopBao .dauTrang .logo {
+    width: 40%;
+    height: 90px;
+    background-color: rgba(255, 200, 36, 0.9);
+    position: absolute;
+    transform: skewX(-30deg);
+    left: -100px;
+    text-align: center;
+    font-size: 44px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-left: 50px;
+    z-index: 1;
+}
+
+
+.lopBao .dauTrang .menu {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    width: 99%;
+    height: 70px;
+    top: 20px;
+    font-size: 16px;
+    float: right;
+}
+
+.lopBao .dauTrang .menu i {
+    float: right;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 36px;
+    float: right;
+    padding: 20px 25px;
+}
+
+.lopBao .dauTrang .menu>ul {
+    float: right;
+}
+
+.lopBao .dauTrang .menu>ul li {
+    display: inline-block;
+    list-style: none;
+    padding-top: 8px;
+    padding-right: 24px;
+}
+
+.lopBao .dauTrang .menu>ul li a {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.lopBao .dauTrang .menu .timKiem>i:hover,
+.lopBao .dauTrang .menu .taiKhoan>i:hover {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 200, 36, 0.5);
+    display: block;
+}
+
+.lopBao .dauTrang .menu>ul li a:hover {
+    color: rgba(255, 255, 255, 1);
+    padding: 20px;
+    border: 2px solid rgba(255, 200, 36, 0.5);
+}
+
+/* *******************************TK */
+.lopBao .dauTrang .menu .timKiem {
+    float: right;
+    position: relative;
+}
+
+.lopBao .dauTrang .menu .timKiem .thanhTim {
+    position: fixed;
+    border: 1px solid black;
+    padding: 4px;
+    display: none;
+    width: 248px;
+    background-color: rgba(255, 200, 36, 0.5);
+    margin-top: 70px;
+    right: 6%;
+}
+
+.lopBao .dauTrang .menu .timKiem .thanhTim input {
+    width: 200px;
+    height: 32px;
+}
+
+.lopBao .dauTrang .menu .timKiem .thanhTim i {
+    margin: 0;
+    font-size: 32px;
+    padding: 4px;
+    color: black;
+}
+
+.lopBao .dauTrang .menu .timKiem:hover .thanhTim {
+    display: block;
+}
+
+/* ******************************************* */
+/* ***************************************** Tai khoan */
+.lopBao .dauTrang .menu .taiKhoan {
+    float: right;
+    position: relative;
+}
+
+.lopBao .dauTrang .menu .taiKhoan ul {
+    position: fixed;
+    margin-top: 70px;
+    display: none;
+    right: 0.5%;
+}
+
+.lopBao .dauTrang .menu .taiKhoan li {
+    text-align: center;
+    list-style: none;
+    width: 150px;
+    height: 25px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 4px;
+}
+
+.lopBao .dauTrang .menu .taiKhoan li a {
+    color: rgba(255, 255, 255, 0.7);
+    width: 100%;
+    height: 100%;
+}
+
+.lopBao .dauTrang .menu .taiKhoan li:hover {
+    border-bottom: 2px solid rgba(255, 200, 36, 0.9);
+    font-weight: bold;
+}
+
+.lopBao .dauTrang .menu .taiKhoan:hover ul {
+    display: inline-block;
+}
+
+/* ******************************************** */
+
+.lopBao .noiDung {
+    width: 100%;
+}
+
+.lopBao .cuoiTrang {
+    width: 100%;
+    height: auto;
+    color: rgba(255, 255, 255, 0.9);
+    background-image: linear-gradient(0, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("https://png.pngtree.com/thumb_back/fw800/background/20190925/pngtree-football-background-free-psd-file-image_315744.jpg");
+    background-size: cover;
+    padding: 20px 0;
+    clear: both;
+}
+
+.lopBao .cuoiTrang table {
+    width: 100%;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
+.lopBao .cuoiTrang .tieuDe {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 28px;
+}
+
+.lopBao .cuoiTrang .chu {
+    padding: 24px;
+    text-align: center;
+}
+
+.lopBao .cuoiTrang .chu a {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 44px;
+}
+
+.lopBao .cuoiTrang .trai {
+    width: 50%;
+    float: left;
+}
+
+.lopBao .cuoiTrang .trai p {
+    margin: 36px 0;
+}
+
+.lopBao .cuoiTrang .trai i {
+    font-size: 40px;
+    margin: 12px;
+    cursor: pointer;
+}
+
+.lopBao .cuoiTrang .trai i:hover {
+    color: white;
+}
+
+.lopBao .cuoiTrang .phai {
+    width: 30%;
+    float: left;
+}
+
+.lopBao .cuoiTrang .phai input,
+.lopBao .cuoiTrang .phai p,
+.lopBao .cuoiTrang .phai textarea {
+    width: 100%;
+    text-align: left;
+    margin: 0px;
+}
+
+.lopBao .cuoiTrang .phai p {
+    padding-top: 8px;
+    padding-bottom: 4px;
+}
+
+.lopBao .cuoiTrang .phai a {
+    /*  width: 30%; */
+    margin-top: 12px;
+    width: 30%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid rgba(255, 200, 36, 0.9);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: rgba(255, 200, 36, 0.9);
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.lopBao .cuoiTrang .phai a:hover {
+    background-color: rgba(255, 200, 36, 0.9);
+    color: rgba(0, 0, 0, 0.7);
+}
